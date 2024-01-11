@@ -3869,7 +3869,7 @@ class Stack extends MultiChildRenderObjectWidget {
   /// top left corners.
   const Stack({
     super.key,
-    this.alignment = AlignmentDirectional.topStart,
+    this.alignment = AlignmentDirectional.topCenter,
     this.textDirection,
     this.fit = StackFit.loose,
     this.clipBehavior = Clip.hardEdge,
